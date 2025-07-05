@@ -1,0 +1,26 @@
+# .gitignore
+*.pth
+*.pt
+*.ckpt
+*.onnx
+output_image.jpg
+Video/
+__pycache__/
+.idea/
+.vscode/
+*.log
+*.DS_Store
+env/
+models/
+model_weights/
+experimental/
+venv/
+videos/
+images/
+*.jpg
+output/
+data/
+# models/
+
+# Ignore setup_guide.md in the root directory
+setup_guide.md
