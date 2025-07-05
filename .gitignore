@@ -13,13 +13,23 @@ __pycache__/
 env/
 models/
 model_weights/
-experimental/
+
+# Ignore everything in data folder
+data/
+# ...except sample_images folder inside data
+!data/sample_images/
+!data/sample_images/*
+
+# Ignore everything in experimental folder — remove or override:
+# experimental/
+!experimental/
+!experimental/*
+
 venv/
 videos/
 images/
-*.jpg
+#*.jpg
 output/
-data/
 # models/
 
 # Ignore setup_guide.md in the root directory
